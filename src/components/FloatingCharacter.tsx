@@ -1,3 +1,5 @@
+import "./FloatingCharacter.css";
+
 interface FloatingCharacterProps {
     name: string;
     level: number;

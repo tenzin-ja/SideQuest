@@ -1,0 +1,22 @@
+.character-card{
+    /*Create a compact card size */
+    width: 200px; 
+    box-sizing: border-box;
+
+    /* Space inside of the card border*/
+    padding: 16px;
+
+    /* Stack elements vertically and center them */
+    display: flex;             /* Turns container into a flex parent, giving control over layout etc */
+    flex-direction: column;    /* Stack inner elements vertically from top to bottom */
+    align-items: center;       /* Center all inner elements horizontally inside the card */
+    gap: 4px; /*space between name, level and xp bar*/
+
+    /* Rpg style appearnce */
+    background-color: #1a1b26; /*black background */
+    color: #f7f9fc;            /* light text color */
+    border-radius: 12px;         /* rounded corners */
+    border: 1px solid #3b4261;  /* subtle dark border */ 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 5); /* subtle drop shadow */
+
+}
